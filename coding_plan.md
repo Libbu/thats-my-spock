@@ -1,3 +1,35 @@
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" 
+data-bs-toggle="modal" data-bs-target="#exampleModal">
+    RULES
+  </button>   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  create the boxes for how it looks 
  create the header 
  create the rock paper scissors lizard spock buttons
