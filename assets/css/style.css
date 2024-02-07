@@ -1,3 +1,23 @@
-p {
-color: red;
-};
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+ .header {
+    background-color: #87c5df;
+ }
+
+
+.game_section {
+    background-color: #ff0000;
+    font-family: "Electrolize", sans-serif;
+}
+
+
+.main_container {
+    background-color: #f1ce83;
+
+}
+    
+
+
+.play_section {
+    background-color: #8aaf90;
+}

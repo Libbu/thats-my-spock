@@ -9,10 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body>
+<body class="game_section">
 
-    <div class="container bg-light">
-        <div class="row p-3">
+    <div class="container main_container">
+        <div class="header row p-3">
             <div class="col-8 col-md-10">Logo</div>
             <div class="col-4 col-md-2">
 
@@ -89,7 +89,7 @@
 
 
 
-    <div class="container p-5">
+    <div class="container play_section options p-5">
         <div class="row text-center">
             <h4>Sheldon Won , Bazinga!!</h4>
         </div>
@@ -97,7 +97,8 @@
             <div class="col-12 col-md-6">
 
                 <button type="button" class="btn btn-secondary">
-                    USER CHOICE
+                    <img src="images/icon-scissors.svg" alt="scissors-icon">
+                    <!--USER CHOICE-->
                 </button>
 
                 
@@ -105,7 +106,8 @@
             <div class="col-12 col-md-6">
 
                 <button type="button" class="btn btn-secondary">
-                    SHELDON CHOICE
+                    <img src="images/icon-rock.svg" alt="rock-icon">
+                    <!--SHELDON CHOICE-->
                 </button>
                
             </div>
@@ -113,7 +115,7 @@
 
 
         <div class="row text-center p-3">
-            <h3>Sheldon has played Rock</h3>
+            <h3>Sheldon played Rock</h3>
         </div>
         <div class="row text-center p-5">
             <div class="col-12 col-md-6">
@@ -136,7 +138,7 @@
     </div>
    
    <!-- modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="options modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
