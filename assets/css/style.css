@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
 
  .header {
+  
     background-color: #87c5df;
-    
+    width: 100vw;
+   
+
  }
 
  .btn_rules {
      margin-top: 20px;
+     margin-left: 40px;
      background-color: #ff0000;
      border-color: #ff0000;
      width: 100px;
