@@ -114,7 +114,10 @@ button {
 
 .main_container {
   background-color: #f1ce83;
+}
 
+.mid-section-height {
+  min-height: 100%;
 }
 
 .hidden_section {
@@ -123,6 +126,8 @@ button {
 
 .footer {
   position: absolute;
+  bottom: 0;
+  left: 0;
   background-color: #87c5df;
   margin-top: 0;
   height: 140px;
