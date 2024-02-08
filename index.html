@@ -1,69 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>working title: that's my spock</title>
     <!-- css & bootstrap link -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-
 <body class="game_section">
 
-    <!--logo & rules-->
+ <!--logo & rules-->
     <div class="container main_container">
-<<<<<<< HEAD
-        <div class="header row p-3">
-            <div class="logo col-8 col-md-8">
-                <img src="images/sheldon-logo.svg" alt="logo image">
-=======
         <div class="header row p-3" >
             <div class="logo col-sm-12 col-md-8">
                 <img src="images/sheldon-logo.svg" alt="logo image">  
->>>>>>> main
             </div>
             <div class="col-sm-12 col-md-4">
 
-                <!-- Button trigger modal -->
-                <button type="button" class="btn_rules btn-primary" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    RULES
-                </button>
-
-            </div>
+ <!-- Button trigger modal -->
+ <button type="button" class="btn_rules btn-primary" 
+ data-bs-toggle="modal" data-bs-target="#exampleModal">
+     RULES
+   </button>  
+              
+                </div>
         </div>
 
         <!--score area-->
-        <div class="score d-grid gap-2 d-md-block p-3 text-center">
+        <div class=" score d-grid gap-2 d-md-block p-3 text-center">
             <button class="btn_score">
                 <P>Player</P>
-                <h2 id="score">0</h2>
+                <h2>1</h2>
             </button>
             <button class="btn_score">
                 <P>Sheldon</P>
-                <h2 id="sheldon-score">0</h2>
+                <h2>5</h2>
             </button>
             <button class="btn_score">
                 <P>Round</P>
-                <h2 id="round">0</h2>
+                <h2>8</h2>
             </button>
-<<<<<<< HEAD
-        </div>
-
-        <!--choices to play-->
-        <div class="user-choice container icon_container p-4">
-            <div class="row gy-5 text-center">
-                <div class="col-6 col-md-4">
-                    <!--rock-->
-                    <button class="btn-choice">
-                        <div class="choice rock game-card">
-                            <img src="images/icon-rock.svg" alt="rock">
-                        </div>
-                    </button>
-=======
           </div>
 
 <!--choices to play-->
@@ -106,49 +84,8 @@
                      <img src="images/icon-lizard.svg" alt="lizard-icon">
                     </div>
                  </button>
->>>>>>> main
 
-                </div>
-                <div class="col-6 col-md-4">
-                    <!--paper-->
-                    <button class="btn-choice">
-                        <div class="choice paper game-card">
-                            <img src="images/icon-paper.svg" alt="paper">
-                        </div>
-                    </button>
-
-                </div>
-
-                <div class="col-6 col-md-4">
-                    <!--scissors-->
-                    <button class="btn-choice">
-                        <div class="choice scissors game-card">
-                            <img src="images/icon-scissors.svg" alt="scissors">
-                        </div>
-                    </button>
-                </div>
             </div>
-<<<<<<< HEAD
-
-            <div class="row gx-5 p-5 text-center">
-                <div class="col-6 col-md-6">
-                    <!--lizard-->
-                    <button class="btn-choice">
-                        <div class="choice lizard game-card">
-                            <img src="images/icon-lizard.svg" alt="lizard">
-                        </div>
-                    </button>
-
-                </div>
-                <div class="col-6 col-md-6">
-                    <!--spock-->
-                    <button class="btn-choice">
-                        <div class="choice spock game-card">
-                            <img src="images/icon-spock.svg" alt="spock">
-                        </div>
-                    </button>
-                </div>
-=======
             <div class="main-choice col-sm-12 col-md-6">
              <!--spock-->
                 <button class="btn-choice">
@@ -156,106 +93,100 @@
                      <img src="images/icon-spock.svg" alt="spock">
                     </div>
                  </button>
->>>>>>> main
             </div>
-
         </div>
+
+     </div>
     </div>
 
     <footer class="footer">
-<<<<<<< HEAD
-        <h2>Im not Crazy , My mother had me tested!</h2>
-=======
         <div class="row">
             <div class="col-12">
                 <h2>Im not Crazy , My mother had me tested!</h2>   
             </div>
         </div>    
             
->>>>>>> main
     </footer>
 
 
-    <!--Results hidden-->
-    <div class="result container hidden picked hidden_section options p-5">
+<!--Results hidden-->
+    <div class="container hidden_section options p-5">
         <div class="row text-center">
             <h4>Sheldon Won , Bazinga!!</h4>
         </div>
         <div class="row text-center p-5">
             <div class="col-12 col-md-6">
 
-                <button type="button" class="user-pick btn_choice btn-secondary">
-                    <div class="choice">
-                      
-                        <!--USER CHOICE-->
-                    </div>
+                <button type="button" class="btn_choice btn-secondary">
+                      <div class="choice">
+                    <img src="images/icon-scissors.svg" alt="scissors-icon">
+                    <!--USER CHOICE-->
+                      </div>
                 </button>
-
-
+                  
+                
             </div>
             <div class="col-12 col-md-6">
 
-                <button type="button" class="sheldon-pick btn_choice btn-secondary">
+                <button type="button" class="btn_choice btn-secondary">
                     <div class="choice">
-
-                        <!--SHELDON CHOICE-->
-                        <div>
+                    <img src="images/icon-rock.svg" alt="rock-icon">
+                    <!--SHELDON CHOICE-->
+                    <div>
                 </button>
             </div>
         </div>
 
 
         <div class="row text-center p-3">
-            <h3 class="title">Sheldon played Rock</h3>
+            <h3>Sheldon played Rock</h3>
         </div>
         <div class="row text-center p-5">
             <div class="col-12 col-md-6">
 
-                <button type="button" class="play-again btn btn-success">
+                <button type="button" class="btn btn-success">
                     Play Again
                 </button>
-
+                
             </div>
             <div class="col-12 col-md-6">
 
-                <button type="button" class="reset-btn btn btn-dark">
+                <button type="button" class="btn btn-dark">
                     RESET
                 </button>
-
+               
 
 
             </div>
         </div>
     </div>
-
-    <!-- modal -->
-    <div class="options modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">
-                        Shelly's Rules !
-                    </h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <img src="images/rules.png" width="400" height="400" alt="Image with the Rules">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
+   
+   <!-- modal -->
+<div class="options modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">
+            Shelly's Rules !
+        </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+        <div class="modal-body">
+          <img src="images/rules.png" width="400" height="400" alt="Image with the Rules">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" 
+          data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
     </div>
-
+  </div>
+   
 
 
     <!-- java link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="assets/java/script.js"></script>
 </body>
-
 </html>
