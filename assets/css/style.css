@@ -7,15 +7,19 @@
 
 /*css to override default boostrap button styling on results panel*/
 
+body {
+  background-color: #ff0000;
+  font-family: "Electrolize", sans-serif;
+}
+
 button {
   border: none;
   border-radius: 50%;
 }
 
-
 .header {
   background-color: #87c5df;
-  width: auto;
+  max-width: 100%
 }
 
 
@@ -36,6 +40,7 @@ button {
   height: 160px;
   border: 10px solid red;
   border-radius: 8px;
+  
 }
 
 
@@ -52,11 +57,6 @@ button {
 .btn_score:hover {
   color: black;
   background-color: #8aaf90;
-}
-
-.game_section {
-  background-color: #ff0000;
-  font-family: "Electrolize", sans-serif;
 }
 
 
