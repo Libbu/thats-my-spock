@@ -24,7 +24,9 @@ button {
 
 .header {
   background-color: #87c5df;
-  max-width: 100%
+  max-width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 
