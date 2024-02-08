@@ -33,7 +33,7 @@ CAN ADD INFORMATION ABOUT SITE PRESENTATION AND NAVIGATION HERE.  UX
 
 | **Homepage before interaction**   | **Homepage after interaction**   | **Rules panel** | **Website as a whole** |
 |---|---|---|---|
-| Player Options panel  | Battle Outcome panel |  | Meaningful alt text |
+| Player Options panel  | Battle Outcome panel | Rules image | Meaningful alt text |
 | Tries Counter panel | User Choice display (image) and Computer Choice display (image) | | |
 | Scores Panel |  User choice display (writing) and Computer Choice display (writing)  | | |
 | Help/Rules Button | Play again Button and Reset Button | | |
