@@ -1,9 +1,14 @@
 function game() {
 
+
+    //global constants to allow game to function
     const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
+    //an array of all possible win conditions for the player
     const userWinResults = ['scissorspaper', 'paperrock', 'rocklizard', 'lizardspock', 'spockscissors', 'rockscissors', 'scissorslizard', 'lizardpaper', 'paperspock', 'spockrock'];
+    //empty strings to receive player and 'sheldon' choices
     let userChoice = '';
     let sheldonChoice = '';
+    //javascript constants for html elements to allow access from funtions
     const userChoiceElement = document.querySelector('.user-choice');
     const pickedElement = document.querySelector('.picked');
     const userPickedElement = document.querySelector('.user-pick');
@@ -11,7 +16,7 @@ function game() {
     const resultElement = document.querySelector('.result');
     const resultTitleElement = resultElement.querySelector('.title');
     const playAgainBtn = document.querySelector('.play-again')
-    let currentScore = null;
+
 
     window.addEventListener('load', () => {
 
@@ -26,6 +31,7 @@ function game() {
         playAgainBtn.addEventListener('click', tryAgain);
     })
 
+    //starts the game. checks who has won based on information returned from the target with the classes .user-choice and .game-card - these are attached to the five options
     function startGame() {
         calculateWinner(userChoice, sheldonChoice)
         userChoiceElement.classList.add('hidden');
@@ -36,7 +42,7 @@ function game() {
     }
 
 
-    // return the second item in the class-list array which in this case indicates which option was selected, will need updating with images
+    // return the second item in the class-list array which in this case indicates which option was selected
     function getUserChoice(target) {
         if (target.nodeName === "IMG") {
             return target.parentElement.classList[1];
@@ -54,13 +60,13 @@ function game() {
 
     function calculateWinner(usercard, sheldoncard) {
         if (usercard === sheldoncard) {
-            resultTitleElement.innerText = "I don't need sleep, I need answers";
+            resultTitleElement.innerText = "I don't need sleep, I need answers.";
             incrementTries();
         } else if (getUserWinsStatus(usercard + sheldoncard)) {
-            resultTitleElement.innerText = "Alright, I'll bow to social pressure";
+            resultTitleElement.innerText = "Alright, I'll bow to social pressure.";
             incrementScore();
         } else {
-            resultTitleElement.innerText = 'bazinga';
+            resultTitleElement.innerText = 'Bazinga!';
             incrementSheldonScore();
         }
 
@@ -70,8 +76,8 @@ function game() {
         return userWinResults.some(winStr => winStr === result);
     }
 
-    //function that builds user and sheldon choice elements using classname, function will need editing when images are added
-    //update the choices on the results block (hidden until an option is picked)
+    //function that builds user and sheldon choice elements using classname
+    //update the choices by creating a div on the results block (hidden until an option is picked)
     function buildChoiceElement(isItUserElement, className) {
         const choiceElement = document.createElement('div');
         choiceElement.classList = [`game-card ${className}`];
@@ -84,13 +90,13 @@ function game() {
         }
 
     }
-//allows the player to try again
+    //allows the player to try again when the try again button is pushed
     function tryAgain() {
         userChoiceElement.classList.remove('hidden');
         pickedElement.classList.add('hidden');
 
     }
-   //clears the selected options before updating them with subsequent choices
+    //clears the selected options before updating them with subsequent choices
     function clearResultsBeforeAppend() {
         userPickedElement.innerHTML = '';
         sheldonPickedElement.innerHTML = '';
@@ -107,7 +113,7 @@ function game() {
         let oldScore = parseInt(document.getElementById('sheldon-score').innerText);
         document.getElementById('sheldon-score').innerText = ++oldScore;
     }
-  //adds to the round counter, will add even if a tie
+    //adds to the round counter, will add even if a tie
     function incrementTries() {
 
         let oldScore = parseInt(document.getElementById('round').innerText);
@@ -115,12 +121,12 @@ function game() {
     }
 
 
-    // reset button reselts all counters and round counter
+    // reset button resets all counters and round counter
 
     const resetBtn = document.querySelector('.reset-btn');
 
     resetBtn.addEventListener('click', resetGame);
-
+    //reseting all elements and constants that need it in order for game to reset
     function resetGame() {
         document.getElementById('sheldon-score').innerText = 0;
         document.getElementById('score').innerText = 0;
@@ -132,5 +138,5 @@ function game() {
     }
 
 }
-
+//runs the game
 game()
