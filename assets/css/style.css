@@ -3,14 +3,14 @@
  .header {
   
     background-color: #87c5df;
-    width: 100vw;
+    width:auto;
    
 
  }
 
  .btn_rules {
      margin-top: 20px;
-     margin-left: 40px;
+     margin-left: 100px;
      background-color: #ff0000;
      border-color: #ff0000;
      width: 100px;
@@ -65,23 +65,26 @@
   background: #fff;
   border-radius: 50%;
   box-shadow: inset 0 0.5rem #c9c9c9; 
+  transform:translate (-50%,-50%);
 }
 
 
+
+.choice:hover {
+  animation: animate .5px;
+  cursor: pointer;
+  background-color: #12aaeb55;
+
+}
 
 .btn-choice {
   border:#87c5df 20px solid;
   border-radius: 50%;
-}
 
-.btn-choice:hover {
-  cursor: pointer;
 }
 
 
-
-
-/*.choice::before,
+choice::before,
 .choice::after {
   content: "";
   position: absolute;
@@ -90,45 +93,9 @@
   width: 130%;
   height: 130%;
   border-radius:50%;
-  /*z-index: -1;
+ 
   
 }
-
-.choice::after {
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
-
-.btn_choice:focus .choice::after {
-  opacity: 1;
-  box-shadow: 0 0 0 2rem #87c5df ;
-  z-index: -2;
-}
-
-
-
-.choice.rock::before {
-  background: linear-gradient(to bottom,#87c5df,#b3e2f7);
-  box-shadow: 0 0.5rem #87c5df , 0 0.5rem  #87c5df;
-}
-.choice.paper::before {
-  background: linear-gradient(to bottom,#87c5df,#b3e2f7);
-  box-shadow: 0 0.5rem #87c5df, 0 0.5rem #87c5df;
-}
-.choice.scissors::before {
-  background: linear-gradient(to bottom,#87c5df,#b3e2f7);
-  box-shadow: 0 0.5rem #87c5df, 0 0.5rem #87c5df;
-}
-.choice.lizard::before {
-  background: linear-gradient(to bottom,#87c5df,#b3e2f7);
-  box-shadow: 0 0.5rem #87c5df , 0 0.5rem  #87c5df;
-}
-
-.choice.spock::before {
-  background: linear-gradient(to bottom,#87c5df,#b3e2f7);
-  box-shadow: 0 0.5rem #87c5df, 0 0.5rem  #87c5df;
-} */
-
 
 
 .main_container {
