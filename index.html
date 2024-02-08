@@ -32,26 +32,26 @@
         <div class=" score d-grid gap-2 d-md-block p-3 text-center">
             <button class="btn_score">
                 <P>Player</P>
-                <h2>1</h2>
+                <h2 id="score">0</h2>
             </button>
             <button class="btn_score">
                 <P>Sheldon</P>
-                <h2>5</h2>
+                <h2 id="sheldon-score">0</h2>
             </button>
             <button class="btn_score">
                 <P>Round</P>
-                <h2>8</h2>
+                <h2 id="round">0</h2>
             </button>
           </div>
 
 <!--choices to play-->
-     <div class="container icon_container p-4">
+     <div class="user-choice container icon_container p-4">
         <div class="row gy-5 text-center">
             <div class="main-choice col-4">
                 <!--rock-->
                 <button class="btn-choice">
-                   <div class="choice rock">
-                    <img src="images/icon-rock.svg" alt="rock-icon">
+                   <div class="choice rock game-card">
+                    <img src="images/icon-rock.svg" alt="rock">
                    </div>
                 </button>
               
@@ -59,8 +59,8 @@
             <div class=" main-choice col-4">
                <!--paper-->
                 <button class="btn-choice">
-                    <div class="choice paper">
-                     <img src="images/icon-paper.svg" alt="paper-icon">
+                    <div class="choice paper game-card">
+                     <img src="images/icon-paper.svg" alt="paper">
                     </div>
                  </button>
 
@@ -69,8 +69,8 @@
             <div class=" main-choice col-4">
                  <!--scissors-->
                 <button class="btn-choice">
-                    <div class="choice scissors">
-                     <img src="images/icon-scissors.svg" alt="scissors-icon">
+                    <div class="choice scissors game-card">
+                     <img src="images/icon-scissors.svg" alt="scissors">
                     </div>
                  </button>
             </div>
@@ -80,8 +80,8 @@
             <div class=" main-choice col-sm-12 col-md-6">
                  <!--lizard-->
                 <button class="btn-choice">
-                    <div class="choice lizard">
-                     <img src="images/icon-lizard.svg" alt="lizard-icon">
+                    <div class="choice lizard game-card">
+                     <img src="images/icon-lizard.svg" alt="lizard">
                     </div>
                  </button>
 
@@ -89,7 +89,7 @@
             <div class="main-choice col-sm-12 col-md-6">
              <!--spock-->
                 <button class="btn-choice">
-                    <div class="choice spock">
+                    <div class="choice spock game-card">
                      <img src="images/icon-spock.svg" alt="spock">
                     </div>
                  </button>
