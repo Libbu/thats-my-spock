@@ -120,6 +120,10 @@ button {
   min-height: 100%;
 }
 
+.vh-height {
+  max-height: 100vh;
+}
+
 .hidden_section {
   background-color: #f1ce83;
 }
