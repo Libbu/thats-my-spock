@@ -11,6 +11,7 @@ function game() {
     //javascript constants for html elements to allow access from funtions
     const userChoiceElement = document.querySelector('.user-choice');
     const pickedElement = document.querySelector('.picked');
+    const mainMargin = document.querySelector('.main_container');
     const userPickedElement = document.querySelector('.user-pick');
     const sheldonPickedElement = document.querySelector('.sheldon-pick');
     const resultElement = document.querySelector('.result');
@@ -81,7 +82,8 @@ function game() {
     //function that builds user and sheldon choice elements using classname
     //update the choices by creating a div on the results block (hidden until an option is picked)
     function buildChoiceElement(isItUserElement, className) {
-        const choiceElement = document.createElement('button');    
+        mainMargin.classList.remove('mid-section-height');
+        const choiceElement = document.createElement('button');
         choiceElement.classList = [`btn-choice ${className}`];
         choiceElement.innerHTML = `<div class ="choice"><img src="images/icon-${className}.svg" alt="${className}"></div>`;
         if (isItUserElement) {
@@ -94,6 +96,7 @@ function game() {
     }
     //allows the player to try again when the try again button is pushed
     function tryAgain() {
+        mainMargin.classList.add('mid-section-height')
         userChoiceElement.classList.remove('hidden');
         pickedElement.classList.add('hidden');
 
@@ -130,6 +133,7 @@ function game() {
     resetBtn.addEventListener('click', resetGame);
     //reseting all elements and constants that need it in order for game to reset
     function resetGame() {
+        mainMargin.classList.add('mid-section-height')
         document.getElementById('sheldon-score').innerText = 0;
         document.getElementById('score').innerText = 0;
         document.getElementById('round').innerText = 0;

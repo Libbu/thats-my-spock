@@ -114,7 +114,10 @@ button {
 
 .main_container {
   background-color: #f1ce83;
+}
 
+.mid-section-height {
+  min-height: 100%;
 }
 
 .hidden_section {
