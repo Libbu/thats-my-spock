@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
 
- .header {
-  
-    background-color: #87c5df;
-    width:auto;
-   
+/* css to allow hiding of html elements by javascript functions*/
+.hidden {
+  display: none !important;
+}
 
- }
+ .header {
+    background-color: #87c5df;
+    width:auto; }
+   
 
  .btn_rules {
      margin-top: 20px;
@@ -19,33 +21,32 @@
          
       }
 
-      .logo img {
-        margin-left: 15px;
-        width: 160px;
-        height: 160px;
-        border: 10px solid red;
-        border-radius: 8px;
-      }
+.logo img {
+  margin-left: 15px;
+  width: 160px;
+  height: 160px;
+  border: 10px solid red;
+  border-radius: 8px;
+}
 
-      
-      
-      .btn_score {
-      color:#8aaf90;
-      background-color:transparent;
-      border: #8aaf90 10px solid;
-      border-radius: 10px;
-      cursor: pointer;
 
-      }
+.btn_score {
+  color: #8aaf90;
+  background-color: transparent;
+  border: #8aaf90 10px solid;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
 
 .btn_score:hover {
-      color: black;
-      background-color: #8aaf90;
-      }
+  color: black;
+  background-color: #8aaf90;
+}
 
 .game_section {
-    background-color: #ff0000;
-    font-family: "Electrolize", sans-serif;
+  background-color: #ff0000;
+  font-family: "Electrolize", sans-serif;
 }
 
 
@@ -99,7 +100,7 @@ choice::before,
 
 
 .main_container {
-    background-color: #f1ce83;
+  background-color: #f1ce83;
 
 }
 
@@ -109,8 +110,9 @@ choice::before,
 .hidden_section {
     background-color:#f1ce83 ;   
 }
+
 .footer {
-  position:absolute;
+  position: absolute;
   background-color: #87c5df;
   margin-top: 0;
   height: 140px;
@@ -121,6 +123,6 @@ choice::before,
 }
 
 .modal-body {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
