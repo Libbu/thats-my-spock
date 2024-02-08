@@ -1,3 +1,42 @@
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" 
+data-bs-toggle="modal" data-bs-target="#exampleModal">
+    RULES
+  </button>   
+ 
+ 
+ p {
+color: red;
+};
+ 
+ linear-gradient(to bottom, #049dde, #87c5df);
+ 
+ box-shadow: 0 0.5rem #79d7ff, 0 0.5rem #049dde;
+ 
+ 
+   <button class="btn_choice">
+                      <div class="choice rock">
+                    <img src="images/icon-rock.svg" alt="rock-icon">
+                    <!--rock-->
+                      </div>
+                </button>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  create the boxes for how it looks 
  create the header 
  create the rock paper scissors lizard spock buttons
