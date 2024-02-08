@@ -22,6 +22,21 @@
         border-radius: 8px;
       }
 
+      
+      
+      .btn_score {
+      color:#8aaf90;
+      background-color:transparent;
+      border: #8aaf90 10px solid;
+      border-radius: 10px;
+      cursor: pointer;
+
+      }
+
+.btn_score:hover {
+      color: black;
+      background-color: #8aaf90;
+      }
 
 .game_section {
     background-color: #ff0000;
