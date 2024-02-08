@@ -1,110 +1,339 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock, Paper, Sheldon: Rock, Paper, Scissors, Lizard and Spock game
 
-Welcome Josh Sinclair,
+Rock, Paper, Sheldon is a website game created for the enjoyment of fans of the Big Bang Theory; and our site is replete with pop references and Sheldon appreciation. We, which is to say: the That’s my Spock team, have taken the game Rock, Paper Scissors, Lizard and Spock (RPSLS) from the Big Bang Theory (itself a reinvention of the ancient Rock, Paper and Scissors (RPS) game) and given it our own special touch.  
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The game pits the site user against the computer; while the computer’s choice is entirely random, the user chooses their attack, which will ultimately decide their fate in the game.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This website is primarily targeted at those with a passion for the Big Bang Theory, but is also for those with a love for the game RPS, which, of course, means everyone in existence. For those who’ve been living under a rock, piece of paper or giant pair of scissors and are somehow unfamiliar with RPS, but also those unsure of the lizard and Spock update, we have included a clickable ‘help’ icon that opens up a rules panel for the user, which they can in addition click out of.   
 
-## Gitpod Reminders
+Landing Page:
+![Landing Page - main page before interaction](/media/landing-page.jpg)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
 
-`python3 -m http.server`
+CAN ADD INFORMATION ABOUT SITE PRESENTATION AND NAVIGATION HERE.  UX
 
-A blue button should appear to click: _Make Public_,
+## User Stories
 
-Another blue button should appear to click: _Open Browser_.
+- As a **new user** I can **see the rules** so that **I can play the game**. 
+- As a **user** I can **see the score** so that **I can see my progress**. 
+- As a **new user** I can **see the number of tries** so that **I can see how many games I’ve won and how many times I can beat the internet**. 
+- As a **site owner** I can **see the game displayed** so that **users can play the game**.
+- As a **new user** I can **see the options buttons** so that **I know which one to pick**. 
+- As a **returning user** I can **see the site is regularly updated** so that **I can play the game differently**. 
+- As a **user who uses a screen reader** I can **have meaningful alt text on images** so that **I can play the game**. 
+- As a **site owner** I want **my webpage to look good on all devices** so that users can **access it in different ways.**
+- As a **user who uses a screen reader** I can **have meaningful alt text on images** so that **I can play the game**. 
+- As a **user** I can **end the game/reset the score** so that **the person sat next to me can have a go**. 
+- As a **site owner** I can **see a game that has increasing levels of difficulty** so that **I can entertain online users**.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Scope
 
-A blue button should appear to click: _Make Public_,
+### High-Level Features
 
-Another blue button should appear to click: _Open Browser_.
+| **Homepage before interaction**   | **Homepage after interaction**   | **Rules panel** | **Website as a whole** |
+|---|---|---|---|
+| Player Options panel  | Battle Outcome panel | Rules image | Meaningful alt text |
+| Tries Counter panel | User Choice display (image) and Computer Choice display (image) | | |
+| Scores Panel |  User choice display (writing) and Computer Choice display (writing)  | | |
+| Help/Rules Button | Play again Button and Reset Button | | |
+| | Help/Rules Button | | |
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+|  **Feature** | **Value**  |  **Effort** |
+|---|---|---|
+| Rock Paper Sheldon  | High  | Medium  |
+| Game Name/Logo | Medium  | Medium  |
+| Homepage before interaction   | High | High  |
+| Homepage after interaction  | High | High |
+| Player Options Panel | High  | Medium |
+| Tries Counter Panel | Medium  | High |
+| Player Score Panel | Medium  | High  |
+| Sheldon Score Panel | High  | High  |
+| Battle Outcome Panel | High  | Medium  |
+| Choice Images Display | High | High  |
+| Choice Written Display | Medium  | Medium  |
+| Play again Button and Reset Button | Medium  | High  |
+| Help/Rules Button | High | Low  |
+| Rules panel | High  | Low  |
 
-To log into the Heroku toolbelt CLI:
+| Feature  |  Priority |
+|---|---|
+| Home page before interaction | 1  |
+| Home page after interaction | 1 |
+| Game Name | 12  |
+| Help/Rules Button | 6  |
+| Rules page  | 5 |
+| Player Options Panel | 2  |
+| Tries Counter Panel | 9  |
+| Scores Panel | 7  |
+| Battle Outcome Panel | 3 |
+| Choice Images Display | 4  |
+| Choice Written Display | 10  |
+| Play again Button and Reset Button | 8  |
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __Game Logo__
 
-------
+Our logo was lovingly crafted by the DEV team to appeal to our site’s target audience. Aesthetically it is well crafted, while its content is both humorous and topical; immediately introducing the user to the site’s thematic content and general purpose.   
 
-## Release History
+![Game Logo](https://github.com/ADD GAME NAME IMAGE LINK HERE.jpg)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- __Help/Rules Button__
 
-**September 20 2023:** Update Python version to 3.9.17.
+  - The rules button is clear and well positioned in the head of the page in direct alignment with the logo. The user’s eyes move across the blue header from the red bordered logo to the red padded button, which is easily clicked to take the user to the rules page.  
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Help/Rules Button](https://github.com/ADD HELP BUTTON IMAGE HERE.jpg)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+-_Rules Page_
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - The rules page is inspired by an already existing wiki image that clearly and visually outlines the rules of the game. Explaining to the user how the different choices within the game affect the outcome; for example, choosing rock defeats scissors, choosing scissors defeats lizard etc.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Rules Pagel](https://github.com/ADD RULES PAGE IMAGE LINK HERE.jpg)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- __Scores and Tries Panels on Landing Page__
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - After each round the page returns to the landing page layout with updated scores and tries tallies to let the user keep track of their progress in the game. The scores are displayed above the options panel, tying the previous set of choices made by the user to their next choice. The user sees their own score as the player score, while the computer (or JavaScript) is personified as the character Sheldon from the Big Bang Theory, adding a layer of personality to the game.  
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Score Panels](https://github.com/ADD SCORE PANELS IMAGE LINK HERE.jpg)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+-_Player Options Panel_
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- The player options panel displays beneath the score panels on the landing page, giving the user the options of rock, paper, scissors, lizard and spock.    
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Player Options Panel](https://github.com/ADD PLAYER OPTIONS IMAGE LINK HERE.jpg)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- Battle Outcome Display__
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  - Before returning to the landing page to commence the next round, the battle outcome is displayed at the top of the game zone. This informs the user as to whether they won, lost or drew the present round of RPSLS.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Battle Outcome Display](https://github.com/ADD Battle Outcome Disaply IMAGE LINK HERE.jpg)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- __Choices Panels__
 
-------
+  - The choices panel includes an image and written display of the user’s choice and Sheldon’s RPSLS choices.
 
-## FAQ about the uptime script
+![Choices Panels](https://github.com/ADD Choices Panels IMAGE LINK HERE.jpg)
 
-**Why have you added this script?**
+- __Play again and Reset Buttons__
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+  - The play again and reset buttons are displayed at the bottom of the game zone window and serve separate but similar purposes. The play again zone takes the user to the landing page with the updated scores and try tally, while the reset button returns the user to the landing page with the scores and try tally board reset to zero.   
 
-**How will this affect me?**
+![Play again and reset buttons](https://github.com/ADD Play again and Reset Buttons IMAGE LINK HERE.jpg)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Structure 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Site Wireframes
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- __Homepage before interaction Desktop__
 
-**So….?**
+![Desktop home page](https://github.com/ADD HOMEPAGE B4 DSK WIREFRAME IMAGE LINK HERE.jpg)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- __Homepage after interaction Desktop__
 
-**Can I opt out?**
+![Desktop home page](https://github.com/ADD HOMEPAGE AFT DSK WIREFRAME IMAGE LINK HERE.jpg)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- __Homepage before interaction Tablet__
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+![Desktop home page](https://github.com/ADD HOMEPAGE B4 TB WIREFRAME IMAGE LINK HERE.jpg)
 
-**Anything more?**
+- __Homepage after interaction Tablet__
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![Desktop home page](https://github.com/ADD HOMEPAGE AFT TB WIREFRAME IMAGE LINK HERE.jpg)
 
----
+- __Homepage before interaction Mobile__
 
-Happy coding!
+![Desktop home page](https://github.com/ADD HOMEPAGE WIREFRAME B4 MOB IMAGE LINK HERE.jpg)
+
+- __Homepage after interaction Mobile__
+
+![Desktop home page](https://github.com/ADD HOMEPAGE WIREFRAME AFT MOB IMAGE LINK HERE.jpg)
+
+## Surface
+
+### Design
+
+#### Chosen Colours
+
+A Site palette was chosen that attempts to match a favoured shirt choice of Sheldon’s from the Big Bang Theory.  
+
+The Palette was created using https://ADD LINK
+
+![palette](https://github.com/PALETTE IMAGE LINK)
+
+The colours are:
+
+#HEX – colour name
+
+#HEX – colour name
+
+#HEX – colour name
+
+#HEX – colour name
+
+#HEX – colour name 
+
+#### Fonts
+
+_________ for paragraph text.
+
+_________ for headings.
+
+#### Media
+
+Images in general are used on our site to...
+
+Home Page – images on homepage (buttons?) are used to...
+
+
+## Technologies Used
+
+- HTML
+
+- CSS3 
+
+- JavaScript
+
+
+## Testing
+
+Rock, Paper Sheldon has been tested on Safari, Opera, Chrome and Microsoft Edge.
+
+Rock, Paper Sheldon has been thoroughly tested throughout the development process for responsiveness across devices using developer tools in Google Chrome.
+
+### Validating
+
+- HTML
+
+  - No errors were found when passed through [HTML Validation](https://validator.w3.org/)
+
+  ![HTML](https://github.com/HTML TEST DISPLAY.jpg)
+
+
+- CSS
+  - No errors were found when passing through [CSS Validation](https://jigsaw.w3.org/css-validator/)
+
+  ![CSS](https://github.com/CSS TEST DISPLAY)
+
+
+- JavaScript
+  - No errors were found when passing through [JSHint Validator](https://jshint.com/)
+
+  ![JavaScript](https://github.com/JAVA TEST DISPLAY)
+  
+	
+
+- Lighthouse tools were used to test the website
+
+Desktop:
+
+![desktop](https://github.com/LIGHTHOUSE DSK TEST IMAGE.jpg)
+
+Mobile View
+
+![mobile](https://github.com/LIGHTHOUSE MOB TEST IMAGE.jpg)
+
+## User Story Testing
+
+1. As a **new user** I can **see the rules** so that **I can play the game**.
+
+- Our website has the rules nicely displayed on a rules panel which can be easily accessed via the rules button displayed in the header of our page. 
+ 
+2. As a **user** I can **see the score** so that **I can see my progress**.
+
+- Our site includes a score bar and tally/round display which updates the user on their progress in the game.  
+
+3. As a **new user** I can **see the number of tries** so that **I can see how many games I’ve won and how many times I can beat the internet**. 
+
+- This feature is included in the score bar in the form of a tally/rounds display. 
+
+4. As a **site owner** I can **see the game displayed** so that **users can play the game**.
+
+- The game is clearly displayed and easily navigated, with designated landing and game zones. The landing zone presents the user with game choices and updated score, while the game zone shows the outcome of the latest round played.  
+
+5. As a **new user** I can **see the options buttons** so that **I know which one to pick**. 
+
+- Options are clearly displayed at the centre of the landing page, with buttons changing colour when hovered over to make the game user friendly.  
+ 
+6. As a **user who uses a screen reader** I can **have meaningful alt text on images** so that **I can play the game**. 
+
+- Meaningful alt text has been included throughout our site to ensure images and icons are accessible to those using a screen reader. 
+
+7. As a **site owner** I want **my webpage to look good on all devices** so that users can **access it in different ways.**
+
+- The site has been tested for screen variability and responsiveness and is accessible across all devices and screen types. 
+
+8. As a **user** I can **end the game/reset the score** so that **the person sat next to me can have a go**. 
+
+-  After each round, in the game zone, the user is presented with the option to either ‘play again’ - keeping their current score and try tally, or ‘reset’ the game and start from scratch. 
+
+
+
+
+
+12. As a **site-owner** I want **users to be able to navigate my site** so that **they can find information**
+
+- All relevant information (including rules) are easily accessible or clearly displayed on the landing page and in the game zone. 
+
+### Features For Future Implementation
+
+6. As a **returning user** I can **see the site is regularly updated** so that **I can play the game differently**.
+
+-  As a group we felt it would be important when creating this kind of game to have regular updates to enhance interactivity (such as adding more Sheldon quotes at the end of each round and images with the quotes), improve accessibility and add multiple levels of difficulty to the game.  
+
+11. As a **site owner** I can **see a game that has increasing levels of difficulty** so that **I can entertain online users**.
+
+- This might include the option to just play rock paper scissors; or have a default play rock, paper, scissors game, which the user must win a set number of points playing in order to unlock the spock and lizard features. 
+
+## Known Issues and Bugs
+
+ACCOUNT OF ANY BUGS FOUND FOLLOWING DEVELOPMENT, TESTING AND DEPLOYMENT IF ANY.
+
+## Deployment
+
+The site was deployed to GitHub pages. 
+
+The live link can be found here:
+
+[Rock, Paper, Sheldon](https://jsith90.github.io/thats-my-spock/)
+
+## Credits 
+
+### Content
+
+[THIS](https://github.com/STOLEN STUFF) WAS STOLEN FROM WHERE AND THIS IS HOW IT WAS USED. SEE GOOGLE FONTS BELOW AS AN EXAMPLE AND REPEAT THIS FORMULA AS NEEDED.
+
+
+
+Bootstrap 4 was used to assist in the structure and layout of the destinations page and the home page.
+
+The layout and contents of this README.md file are in large part influenced by the [CyberPixels](https://github.com/Libbu/CyberPixels/blob/main/README.md) README.md file from 1st Gwent group Hackathon project. 
+
+Fonts are from [Google Fonts](https://fonts.google.com/)
+
+### Media
+
+Images were taken from:
+ [Pexels](https://www.pexels.com/)
+
+Images were altered on [PineTools](https://pinetools.com/pixelate-effect-image) using the pixelate effect tool. 
+
+[Photopea](https://www.photopea.com/) was used to create the rules panel. 
+
+[Balsamiq](https://balsamiq.com/) was used to generate wireframes. 
+
+### Acknowledgements 
+ 
+Further assistance gratefully received from CI tutors Iris, Kevin and Martin, and the wider CI slack community.
+
+Unless otherwise noted all code and content is the work of That’s my Spock as part of the Gwent group’s 2nd Hackathon for their Code Institute Bootcamp.
+
+### That’s my Spock:
+
+Caelum Johnson
+Sharon Simpson
+Elizabeth Spivey
+Josh Sinclair-Thomson
+
+
+
+

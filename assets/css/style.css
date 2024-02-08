@@ -24,7 +24,11 @@ button {
 
 .header {
   background-color: #87c5df;
+<<<<<<< HEAD
   width: 100%;
+=======
+  max-width: 100%;
+>>>>>>> main
   margin-left: 0px;
   margin-right: 0px;
 }
