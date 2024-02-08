@@ -58,8 +58,8 @@ CAN ADD INFORMATION ABOUT SITE PRESENTATION AND NAVIGATION HERE.  UX
 
 | Feature  |  Priority |
 |---|---|
-| Home page before interaction | 1  |
-| Home page after interaction | 1 |
+| Landing Page | 1  |
+| Game Zone -Landing Page after interaction | 1 |
 | Game Name | 12  |
 | Help/Rules Button | 6  |
 | Rules page  | 5 |
@@ -276,13 +276,18 @@ Mobile View
 
 ### Features For Future Implementation
 
-6. As a **returning user** I can **see the site is regularly updated** so that **I can play the game differently**.
+1. As a **returning user** I can **see the site is regularly updated** so that **I can play the game differently**.
 
--  As a group we felt it would be important when creating this kind of game to have regular updates to enhance interactivity (such as adding more Sheldon quotes at the end of each round and images with the quotes), improve accessibility and add multiple levels of difficulty to the game.  
+-  As a group we felt it would be important when creating this kind of game to have regular updates to enhance interactivity (such as adding more Sheldon quotes at the end of each round and images with the quotes), improve accessibility and add multiple levels of difficulty to the game. Another future update would be to implement the options to play a first three out of five rounds game between the user and Sheldon, or a first first to win ten rounds game.   
 
-11. As a **site owner** I can **see a game that has increasing levels of difficulty** so that **I can entertain online users**.
+2. As a **site owner** I can **see a game that has increasing levels of difficulty** so that **I can entertain online users**.
 
 - This might include the option to just play rock paper scissors; or have a default play rock, paper, scissors game, which the user must win a set number of points playing in order to unlock the spock and lizard features. 
+
+3. As a **site owner** I can **see a game that has increasing levels of difficulty** so that **I can entertain online users**.
+
+- This might include the option to just play rock paper scissors; or have a default play rock, paper, scissors game, which the user must win a set number of points playing in order to unlock the spock and lizard features. 
+
 
 ## Known Issues and Bugs
 
@@ -301,8 +306,6 @@ The live link can be found here:
 ### Content
 
 [THIS](https://github.com/STOLEN STUFF) WAS STOLEN FROM WHERE AND THIS IS HOW IT WAS USED. SEE GOOGLE FONTS BELOW AS AN EXAMPLE AND REPEAT THIS FORMULA AS NEEDED.
-
-
 
 Bootstrap 4 was used to assist in the structure and layout of the destinations page and the home page.
 
