@@ -115,7 +115,7 @@ function game() {
     }
 
 
-    // reset button reselts all counters
+    // reset button reselts all counters and round counter
 
     const resetBtn = document.querySelector('.reset-btn');
 
