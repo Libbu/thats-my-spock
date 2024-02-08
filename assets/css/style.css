@@ -2,6 +2,7 @@
 
  .header {
     background-color: #87c5df;
+    
  }
 
  .btn_rules {
@@ -133,6 +134,13 @@
 
 .hidden_section {
     background-color: #8aaf90;   
+}
+.footer {
+  background-color: #87c5df;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .modal-body {
