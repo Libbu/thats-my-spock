@@ -9,9 +9,9 @@ data-bs-toggle="modal" data-bs-target="#exampleModal">
 color: red;
 };
  
+ linear-gradient(to bottom, #049dde, #87c5df);
  
- 
- 
+ box-shadow: 0 0.5rem #79d7ff, 0 0.5rem #049dde;
  
  
  
