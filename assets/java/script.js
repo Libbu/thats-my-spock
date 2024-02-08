@@ -81,7 +81,7 @@ function game() {
     function buildChoiceElement(isItUserElement, className) {
         const choiceElement = document.createElement('button');    
         choiceElement.classList = [`btn-choice ${className}`];
-        choiceElement.innerHTML = `<div class="choice"><img src="images/icon-${className}.svg" alt="${className}"></div>`;
+        choiceElement.innerHTML = `<div class ="choice"><img class ="imgchosen" src="images/icon-${className}.svg" alt="${className}"></div>`;
         if (isItUserElement) {
             userPickedElement.append(choiceElement);
         } else {

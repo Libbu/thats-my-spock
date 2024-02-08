@@ -5,10 +5,23 @@
   display: none !important;
 }
 
+ /*css to override default boostrap button styling on results panel*/
+   
+ button {
+  border: none;
+  border-radius: 50%;
+  transform: scale(1);
+ }
+
+ .imgchosen {
+  opacity:var(#87c5df);
+  transform: scale(1);
+}
+
  .header {
     background-color: #87c5df;
     width:auto; }
-   
+
 
  .btn_rules {
      margin-top: 20px;
@@ -38,6 +51,7 @@
   cursor: pointer;
 
 }
+
 
 .btn_score:hover {
   color: black;
@@ -81,11 +95,10 @@
 .btn-choice {
   border:#87c5df 20px solid;
   border-radius: 50%;
-
 }
 
 
-choice::before,
+.choice::before,
 .choice::after {
   content: "";
   position: absolute;
@@ -93,9 +106,7 @@ choice::before,
   top: -15%;
   width: 130%;
   height: 130%;
-  border-radius:50%;
- 
-  
+  border-radius:50%;  
 }
 
 
@@ -103,9 +114,6 @@ choice::before,
   background-color: #f1ce83;
 
 }
-
- 
-
 
 .hidden_section {
     background-color:#f1ce83 ;   
