@@ -22,7 +22,10 @@ color: red;
                 </button>
  
  
- 
+ position: relative;
+  justify-content: center;
+  align-items: center;
+  display:flex;}
  
  
  
