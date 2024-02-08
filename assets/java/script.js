@@ -80,7 +80,7 @@ function game() {
     //update the choices by creating a div on the results block (hidden until an option is picked)
     function buildChoiceElement(isItUserElement, className) {
         const choiceElement = document.createElement('div');    
-        choiceElement.classList = [`choice ${className}`];
+        choiceElement.classList = [`choice btn-choice ${className}`];
         choiceElement.innerHTML = `<img src="images/icon-${className}.svg" alt="${className}">`;
         if (isItUserElement) {
             userPickedElement.append(choiceElement);
