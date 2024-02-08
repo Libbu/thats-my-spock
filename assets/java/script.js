@@ -31,6 +31,7 @@ function game() {
         playAgainBtn.addEventListener('click', tryAgain);
     })
 
+    //starts the game. checks who has won based on information returned from the target with the classes .user-choice and .game-card - these are attached to the five options
     function startGame() {
         calculateWinner(userChoice, sheldonChoice)
         userChoiceElement.classList.add('hidden');
