@@ -79,8 +79,8 @@ function game() {
     //function that builds user and sheldon choice elements using classname
     //update the choices by creating a div on the results block (hidden until an option is picked)
     function buildChoiceElement(isItUserElement, className) {
-        const choiceElement = document.createElement('div');
-        choiceElement.classList = [`game-card ${className}`];
+        const choiceElement = document.createElement('div');    
+        choiceElement.classList = [`choice ${className}`];
         choiceElement.innerHTML = `<img src="images/icon-${className}.svg" alt="${className}">`;
         if (isItUserElement) {
             userPickedElement.append(choiceElement);
