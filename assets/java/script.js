@@ -16,7 +16,7 @@ function game() {
     const resultElement = document.querySelector('.result');
     const resultTitleElement = resultElement.querySelector('.title');
     const playAgainBtn = document.querySelector('.play-again')
-  
+
 
     window.addEventListener('load', () => {
 
@@ -59,13 +59,13 @@ function game() {
 
     function calculateWinner(usercard, sheldoncard) {
         if (usercard === sheldoncard) {
-            resultTitleElement.innerText = "I don't need sleep, I need answers";
+            resultTitleElement.innerText = "I don't need sleep, I need answers.";
             incrementTries();
         } else if (getUserWinsStatus(usercard + sheldoncard)) {
-            resultTitleElement.innerText = "Alright, I'll bow to social pressure";
+            resultTitleElement.innerText = "Alright, I'll bow to social pressure.";
             incrementScore();
         } else {
-            resultTitleElement.innerText = 'bazinga';
+            resultTitleElement.innerText = 'Bazinga!';
             incrementSheldonScore();
         }
 
@@ -89,13 +89,13 @@ function game() {
         }
 
     }
-//allows the player to try again when the try again button is pushed
+    //allows the player to try again when the try again button is pushed
     function tryAgain() {
         userChoiceElement.classList.remove('hidden');
         pickedElement.classList.add('hidden');
 
     }
-   //clears the selected options before updating them with subsequent choices
+    //clears the selected options before updating them with subsequent choices
     function clearResultsBeforeAppend() {
         userPickedElement.innerHTML = '';
         sheldonPickedElement.innerHTML = '';
@@ -112,7 +112,7 @@ function game() {
         let oldScore = parseInt(document.getElementById('sheldon-score').innerText);
         document.getElementById('sheldon-score').innerText = ++oldScore;
     }
-  //adds to the round counter, will add even if a tie
+    //adds to the round counter, will add even if a tie
     function incrementTries() {
 
         let oldScore = parseInt(document.getElementById('round').innerText);
@@ -125,7 +125,7 @@ function game() {
     const resetBtn = document.querySelector('.reset-btn');
 
     resetBtn.addEventListener('click', resetGame);
-//reseting all elements and constants that need it in order for game to reset
+    //reseting all elements and constants that need it in order for game to reset
     function resetGame() {
         document.getElementById('sheldon-score').innerText = 0;
         document.getElementById('score').innerText = 0;
