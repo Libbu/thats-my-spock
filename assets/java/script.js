@@ -90,7 +90,6 @@ function game() {
             userPickedElement.append(choiceElement);
         } else {
             sheldonPickedElement.append(choiceElement);
-
         }
 
     }
