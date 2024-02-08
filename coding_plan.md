@@ -14,7 +14,12 @@ color: red;
  box-shadow: 0 0.5rem #79d7ff, 0 0.5rem #049dde;
  
  
- 
+   <button class="btn_choice">
+                      <div class="choice rock">
+                    <img src="images/icon-rock.svg" alt="rock-icon">
+                    <!--rock-->
+                      </div>
+                </button>
  
  
  

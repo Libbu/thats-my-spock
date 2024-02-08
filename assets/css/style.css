@@ -6,7 +6,7 @@
  }
 
  .btn_rules {
-     margin-top: 50px;
+     margin-top: 20px;
      background-color: #ff0000;
      border-color: #ff0000;
      width: 100px;
@@ -17,8 +17,8 @@
 
       .logo img {
         margin-left: 15px;
-        width: 200px;
-        height: 200px;
+        width: 160px;
+        height: 160px;
         border: 10px solid red;
         border-radius: 8px;
       }
@@ -57,11 +57,11 @@
   justify-content: center;
   align-items: center;
   display:flex;
-  width: 10rem;
-  height: 10rem;
+  width: 8rem;
+  height: 8rem;
   background: #fff;
   border-radius: 50%;
-  box-shadow: inset 0 0.5rem var(--shadow-light);
+  box-shadow: inset 0 0.5rem #c9c9c9;
   
 }
 
@@ -73,7 +73,8 @@
   top: -15%;
   width: 130%;
   height: 130%;
-  border-radius: 50%;
+  border-radius:50%;
+  z-index: -1;
   
 }
 
@@ -119,25 +120,20 @@
 
 }
 
-
- .btn_choice:hover {
-
- }
-  
- 
-
   .choice img {
-    transform: scale(1.5);
+    transform: scale(1);
   }
-
 
 
 .hidden_section {
     background-color: #8aaf90;   
 }
 .footer {
+  position:absolute;
   background-color: #87c5df;
-  height: 100px;
+  margin-top: 0;
+  height: 140px;
+  width: 100%;
   align-items: center;
   display: flex;
   justify-content: center;
