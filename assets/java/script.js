@@ -65,9 +65,11 @@ function game() {
         } else if (getUserWinsStatus(usercard + sheldoncard)) {
             resultTitleElement.innerText = "Alright, I'll bow to social pressure.";
             incrementScore();
+            incrementTries();
         } else {
             resultTitleElement.innerText = 'Bazinga!';
             incrementSheldonScore();
+            incrementTries();
         }
 
     }
