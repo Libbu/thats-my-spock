@@ -317,7 +317,10 @@ The character of Sheldon from the sitcom Big Bang Theory is the creation of Chuc
 
 Javascript game logic derived from a [Youtube Walkthrough](https://www.youtube.com/watch?v=lV2BMXdsDmc) by [Dmytro Horystan](https://github.com/CompetentProgramming) before being modified to accomodate our DOM structure and other features.
 
-Javascript function for incrementing scores borrowed from Code Institute's [Love Maths](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) walkthrough project
+Javascript function for incrementing scores borrowed from Code Institute's [Love Maths](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) walkthrough project.
+
+The rules panel was inspired by the rules as displayed on this image, which is without an originator listed:
+[Rules Panel Inspiration](https://upload.wikimedia.org/wikipedia/commons/f/fe/Rock_Paper_Scissors_Lizard_Spock_en.svg) 
 
 Further assistance gratefully received from CI tutors Iris, Kevin and Martin, and the wider CI slack community.
 
