@@ -7,7 +7,7 @@ The game pits the site user against the computer; while the computer’s choice 
 This website is primarily targeted at those with a passion for the Big Bang Theory, but is also for those with a love for the game RPS, which, of course, means everyone in existence. For those who’ve been living under a rock, piece of paper or giant pair of scissors and are somehow unfamiliar with RPS, but also those unsure of the lizard and Spock update, we have included a clickable ‘help’ icon that opens up a rules panel for the user, which they can in addition click out of.   
 
 Landing Page:
-![Landing Page - main page before interaction](/media/landing-page.jpg)
+![Landing Page - main page before interaction](/media/landing-page-responsive.jpg)
 
 ## UX
 
@@ -76,51 +76,41 @@ The site’s navigation is kept simple to accommodate a wide range of user needs
 
 - __Game Logo__
 
-Our logo was lovingly crafted by the DEV team to appeal to our site’s target audience. Aesthetically it is well crafted, while its content is both humorous and topical; immediately introducing the user to the site’s thematic content and general purpose.   
+Our logo was lovingly crafted by the DEV team to appeal to our site’s target audience. Aesthetically it is well crafted, while its content is both humorous and topical; immediately introducing the user to the site’s thematic content and general purpose. It has been intentionally pixelated to encapsulate a nostalgic 80s to early 90s gaming aesthetic.  
 
-![Game Logo](https://github.com/ADD GAME NAME IMAGE LINK HERE.jpg)
+![Game Logo](/media/logo.png)
 
 - __Help/Rules Button__
 
   - The rules button is clear and well positioned in the head of the page in direct alignment with the logo. The user’s eyes move across the blue header from the red bordered logo to the red padded button, which is easily clicked to take the user to the rules page.  
 
-![Help/Rules Button](https://github.com/ADD HELP BUTTON IMAGE HERE.jpg)
+![Help/Rules Button](/media/rules-button.png)
 
--_Rules Page_
+- __Rules Page__
 
-  - The rules page is inspired by an already existing wiki image that clearly and visually outlines the rules of the game. Explaining to the user how the different choices within the game affect the outcome; for example, choosing rock defeats scissors, choosing scissors defeats lizard etc.
+  - The rules page is inspired by an already existing wiki image that clearly and visually outlines the rules of the game. Explaining to the user how the different choices within the game affect the outcome; for example, choosing rock defeats scissors, choosing scissors defeats lizard etc. It displays as a modal oveer the landing page when the rules button is clicked. 
 
-![Rules Pagel](https://github.com/ADD RULES PAGE IMAGE LINK HERE.jpg)
+![Rules Pagel](/media/rules-image.png)
 
 - __Scores and Tries Panels on Landing Page__
 
   - After each round the page returns to the landing page layout with updated scores and tries tallies to let the user keep track of their progress in the game. The scores are displayed above the options panel, tying the previous set of choices made by the user to their next choice. The user sees their own score as the player score, while the computer (or JavaScript) is personified as the character Sheldon from the Big Bang Theory, adding a layer of personality to the game.  
 
-![Score Panels](https://github.com/ADD SCORE PANELS IMAGE LINK HERE.jpg)
+![Score Panels](/media/score-panel.png)
 
--_Player Options Panel_
+- __Player Options Panel__
 
-- The player options panel displays beneath the score panels on the landing page, giving the user the options of rock, paper, scissors, lizard and spock.    
+  - The player options panel displays beneath the score panels on the landing page, giving the user the options of rock, paper, scissors, lizard and spock.    
 
-![Player Options Panel](https://github.com/ADD PLAYER OPTIONS IMAGE LINK HERE.jpg)
+![Player Options Panel](/media/options-panel.png)
 
-- Battle Outcome Display__
+- __Battle Outcome Display, Choices Panels & Play Again and Reset Buttons__
 
   - Before returning to the landing page to commence the next round, the battle outcome is displayed at the top of the game zone. This informs the user as to whether they won, lost or drew the present round of RPSLS.
-
-![Battle Outcome Display](https://github.com/ADD Battle Outcome Disaply IMAGE LINK HERE.jpg)
-
-- __Choices Panels__
-
   - The choices panel includes an image and written display of the user’s choice and Sheldon’s RPSLS choices.
+  - The play again and reset buttons are displayed at the bottom of the game zone window and serve separate but similar purposes. The play again zone takes the user to the landing page with the updated scores and try tally, while the reset button returns the user to the landing page with the scores and try tally board reset to zero.  
 
-![Choices Panels](https://github.com/ADD Choices Panels IMAGE LINK HERE.jpg)
-
-- __Play again and Reset Buttons__
-
-  - The play again and reset buttons are displayed at the bottom of the game zone window and serve separate but similar purposes. The play again zone takes the user to the landing page with the updated scores and try tally, while the reset button returns the user to the landing page with the scores and try tally board reset to zero.   
-
-![Play again and reset buttons](https://github.com/ADD Play again and Reset Buttons IMAGE LINK HERE.jpg)
+![Battle Outcome Display](/media/gamezone.png)
 
 ## Structure 
 
@@ -323,6 +313,9 @@ Images were altered on [PineTools](https://pinetools.com/pixelate-effect-image) 
 [Photopea](https://www.photopea.com/) was used to create the rules panel. 
 
 [Balsamiq](https://balsamiq.com/) was used to generate wireframes. 
+
+Responsiveness tested on:
+[Am I Responsive?](https://ui.dev/amiresponsive)
 
 ### Acknowledgements
 
