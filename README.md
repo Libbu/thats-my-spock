@@ -324,11 +324,17 @@ Images were altered on [PineTools](https://pinetools.com/pixelate-effect-image) 
 
 [Balsamiq](https://balsamiq.com/) was used to generate wireframes. 
 
-### Acknowledgements 
- 
+### Acknowledgements
+
+The character of Sheldon from the sitcom Big Bang Theory is the creation of Chuck Lorre and Bill Prady, Big Bang Theory is property of Warner Bros. Television.
+
+Javascript game logic derived from a [Youtube Walkthrough](https://www.youtube.com/watch?v=lV2BMXdsDmc) by [Dmytro Horystan](https://github.com/CompetentProgramming) before being modified to accomodate our DOM structure and other features.
+
+Javascript function for incrementing scores borrowed from Code Institute's [Love Maths](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode) walkthrough project
+
 Further assistance gratefully received from CI tutors Iris, Kevin and Martin, and the wider CI slack community.
 
-Unless otherwise noted all code and content is the work of That’s my Spock as part of the Gwent group’s 2nd Hackathon for their Code Institute Bootcamp.
+Unless otherwise noted all code and content is the work of That’s my Spock as part of the Gwent group’s 2nd 3-day Hackathon for their Code Institute Bootcamp.
 
 ### That’s my Spock:
 
