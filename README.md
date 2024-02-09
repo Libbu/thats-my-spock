@@ -262,6 +262,10 @@ Mobile View
 
 - This might include the option to just play rock paper scissors; or have a default play rock, paper, scissors game, which the user must win a set number of points playing in order to unlock the spock and lizard features. 
 
+### Future Fixes: Tested Bugs
+
+- In the next iteration we would of course fix the typos picked up by the HTML, CSS and Java testing to properly meet internet standards.   
+
 ## Known Issues and Bugs
 
 Display of option buttons currently distorts to an oval on Safari mobile browser.
