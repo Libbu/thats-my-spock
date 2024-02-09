@@ -302,7 +302,7 @@ Images were altered on [PineTools](https://pinetools.com/pixelate-effect-image) 
 Responsiveness tested on:
 [Am I Responsive?](https://ui.dev/amiresponsive)
 
-## README Content
+### README Content
 
 The layout and contents of this README.md file are in large part influenced by the [CyberPixels](https://github.com/Libbu/CyberPixels/blob/main/README.md) README.md file from 1st Gwent group Hackathon project.
 
