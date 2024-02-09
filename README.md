@@ -290,6 +290,9 @@ Bootstrap 5 was used to assist in the structure and layout of the site.
 
 Fonts are from [Google Fonts](https://fonts.google.com/)
 
+The rules panel was inspired by the rules as displayed on this image, which is without an originator listed:
+[Rules Panel Inspiration](https://upload.wikimedia.org/wikipedia/commons/f/fe/Rock_Paper_Scissors_Lizard_Spock_en.svg) 
+
 ### Media
 
 Images were taken from:
