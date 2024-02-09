@@ -193,7 +193,7 @@ Rock, Paper Sheldon has been thoroughly tested throughout the development proces
 - CSS
   - A total of 27 Parse errors were found during testing, although this doesn't meat W3C convention and can lead to problematic code, there is no evidence of Parse bugs interfering with the deployed version of the site. [CSS Validation](/media/css-test-errors.png)
 
-  ![CSS](https://github.com/CSS TEST DISPLAY)
+  ![CSS](/media/css-test-errors.png)
 
 
 - JavaScript
