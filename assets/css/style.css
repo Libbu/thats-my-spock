@@ -165,7 +165,7 @@ button {
   justify-content: center;
 }
 
-/*--------------------------------------------------------------------------------media queries*/
+/*--------------------------------------------------------------------------------media query*/
 
 @media screen and (max-width: 768px) {
 
@@ -188,5 +188,9 @@ button {
     margin-right:0px;
   }
 
-}
+  .last-item
+  {padding-top: 24px;
+  padding-bottom: 24px;
+  }
 
+}
