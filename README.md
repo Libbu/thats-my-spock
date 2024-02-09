@@ -190,7 +190,7 @@ Rock, Paper Sheldon has been thoroughly tested throughout the development proces
   ![HTML](/media/html-errors-image-4.png)
 
 - CSS
-  - A total of 27 Parse errors were found during testing, although this doesn't meat W3C convention and can lead to problematic code, there is no evidence of Parse bugs interfering with the deployed version of the site. [CSS Validation](/media/css-test-errors.png)
+  - A total of 27 Parse errors were found during testing, although this doesn't meet W3C convention and can lead to problematic code, there is no evidence of Parse bugs interfering with the deployed version of the site. [CSS Validation](/media/css-test-errors.png)
 
   ![CSS](/media/css-test-errors.png)
 
@@ -204,11 +204,11 @@ Rock, Paper Sheldon has been thoroughly tested throughout the development proces
 
 Desktop:
 
-![desktop](https://github.com/LIGHTHOUSE DSK TEST IMAGE.jpg)
+![desktop](/media/lighthousepc.JPG)
 
 Mobile View
 
-![mobile](https://github.com/LIGHTHOUSE MOB TEST IMAGE.jpg)
+![mobile](/media/lighthousemobile.JPG)
 
 ## User Story Testing
 
@@ -268,7 +268,9 @@ Mobile View
 
 ## Known Issues and Bugs
 
-ACCOUNT OF ANY BUGS FOUND FOLLOWING DEVELOPMENT, TESTING AND DEPLOYMENT IF ANY.
+Display of option buttons currently distorts to an oval on Safari mobile browser.
+
+In the results section the white background of the container for the option images spills slightly beyond the thick blue border.
 
 ## Deployment
 
