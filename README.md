@@ -266,6 +266,8 @@ Mobile View
 
 - In the next iteration we would of course fix the typos picked up by the HTML, CSS and Java testing to properly meet internet standards.   
 
+- We would also make it a priority to fix the bugs noted in the below section.
+
 ## Known Issues and Bugs
 
 Display of option buttons currently distorts to an oval on Safari mobile browser.
