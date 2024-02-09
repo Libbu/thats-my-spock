@@ -182,9 +182,12 @@ Rock, Paper Sheldon has been thoroughly tested throughout the development proces
 
 - HTML
 
-  - No errors were found when passed through [HTML Validation](https://validator.w3.org/)
+  - We had a total of 17 HTML errors: including 13 errors concerning conventions around parent and child elements, 3 element tags that were not closed in accordance with w3 standards and one empty h3 tag, which was not an error but a javascript tag. [HTML Validation](https://validator.w3.org/)
 
-  ![HTML](https://github.com/HTML TEST DISPLAY.jpg)
+  ![HTML](/media/html-errors-image-1.png)
+  ![HTML](/media/html-errors-image-2.png)
+  ![HTML](/media/html-errors-image-3.png)
+  ![HTML](/media/html-errors-image-1.png)
 
 
 - CSS
