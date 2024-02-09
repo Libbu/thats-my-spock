@@ -204,7 +204,7 @@ Rock, Paper Sheldon has been thoroughly tested throughout the development proces
 
 Desktop:
 
-![desktop](/media/lighthousePC.JPG)
+![desktop](/media/lighthousepc.JPG)
 
 Mobile View
 
