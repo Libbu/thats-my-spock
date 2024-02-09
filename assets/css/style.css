@@ -32,7 +32,7 @@ button {
 
 .btn_rules {
   margin-top: 20px;
-  margin-left: 100px;
+  margin-right: 200px;
   background-color: #ff0000;
   border-color: #ff0000;
   width: 100px;
@@ -46,7 +46,7 @@ button {
 }
 
 .logo img {
-  /*margin-left: 15px;*/
+  margin-right:300px;
   width: 160px;
   height: 160px;
   border: 10px solid red;
@@ -82,6 +82,7 @@ button {
   transform: scale(1);
 }
 
+/*---updated hover css from sharon---*/
 
 .choice {
   position: relative;
@@ -164,7 +165,7 @@ button {
   justify-content: center;
 }
 
-/*--------------------------------------------------------------------------------media queries*/
+/*--------------------------------------------------------------------------------media query*/
 
 @media screen and (max-width: 768px) {
 
@@ -174,7 +175,7 @@ button {
 
   .btn_rules {
     margin-top: 20px;
-    margin-left: 0px;
+    margin-right: 0px;
     background-color: #ff0000;
     border-color: #ff0000;
     width: 100px;
@@ -183,5 +184,13 @@ button {
   
   }
 
-}
+  .logo img {
+    margin-right:0px;
+  }
 
+  .last-item
+  {padding-top: 24px;
+  padding-bottom: 24px;
+  }
+
+}
