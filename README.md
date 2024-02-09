@@ -189,19 +189,16 @@ Rock, Paper Sheldon has been thoroughly tested throughout the development proces
   ![HTML](/media/html-errors-image-3.png)
   ![HTML](/media/html-errors-image-4.png)
 
-
 - CSS
   - A total of 27 Parse errors were found during testing, although this doesn't meat W3C convention and can lead to problematic code, there is no evidence of Parse bugs interfering with the deployed version of the site. [CSS Validation](/media/css-test-errors.png)
 
   ![CSS](/media/css-test-errors.png)
 
-
 - JavaScript
-  - No errors were found when passing through [JSHint Validator](https://jshint.com/)
+  - A total of 32 warnings were flagged by the JSHint Validator on the JavaScript. All of these flags are to do with variable names (let and const) and their availability on different browsers and some missing semicolons. [JSHint Validator](https://jshint.com/)
 
-  ![JavaScript](https://github.com/JAVA TEST DISPLAY)
-  
-	
+  ![JavaScript](/media/java-tests.png)
+  ![JavaScript](/media/java-tests-2.png)
 
 - Lighthouse tools were used to test the website
 
