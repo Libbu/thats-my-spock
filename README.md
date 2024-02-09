@@ -11,7 +11,9 @@ Landing Page:
 
 ## UX
 
-CAN ADD INFORMATION ABOUT SITE PRESENTATION AND NAVIGATION HERE.  UX
+The site’s theme was inspired by the widely popular TV show ‘The Big Bang Theory and our design concept was centred around this theme. We incorporated various assets and content relevant to the show to enhance the user experience. Some examples include the funky logo featuring Sheldon, comedic quotes from the character, and the premise that the opponent is actually Sheldon rather than the computer.
+
+The site’s navigation is kept simple to accommodate a wide range of user needs while adhering to the Minimum Viable Product (MVP) concept. The rules modal is straightforward, and the entire website is contained within one page, aligning with our content requirements. This approach also allows our development team to easily adjust content based on the wireframes.
 
 ## User Stories
 
@@ -156,27 +158,25 @@ Our logo was lovingly crafted by the DEV team to appeal to our site’s target a
 
 A Site palette was chosen that attempts to match a favoured shirt choice of Sheldon’s from the Big Bang Theory.  
 
-The Palette was created using https://ADD LINK
+The Palette was created using https://htmlcolorcodes.com
 
-![palette](https://github.com/PALETTE IMAGE LINK)
+![Colour Palette](https://)
 
 The colours are:
 
-#HEX – colour name
+#FF0000 – Red
 
-#HEX – colour name
+#87C5DF – Blue
 
-#HEX – colour name
-
-#HEX – colour name
-
-#HEX – colour name 
+#F1CE83 – Khaki (Orangey-Beige)
 
 #### Fonts
 
-_________ for paragraph text.
+ Electrolise for paragraph text.
 
-_________ for headings.
+ Electrolise for headings.
+
+The Font was found on: https://www.helpmegeek.com/geeky-google-fonts-tech-projects/
 
 #### Media
 
