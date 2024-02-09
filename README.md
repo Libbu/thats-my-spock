@@ -286,7 +286,7 @@ The live link can be found here:
 
 ### Content
 
-Bootstrap 5 was used to assist in the structure and layout of the destinations page and the home page.
+Bootstrap 5 was used to assist in the structure and layout of the site.
 
 Fonts are from [Google Fonts](https://fonts.google.com/)
 
