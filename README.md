@@ -88,7 +88,7 @@ Our logo was lovingly crafted by the DEV team to appeal to our site’s target a
 
 - __Rules Page__
 
-  - The rules page is inspired by an already existing wiki image that clearly and visually outlines the rules of the game. Explaining to the user how the different choices within the game affect the outcome; for example, choosing rock defeats scissors, choosing scissors defeats lizard etc. It displays as a modal oveer the landing page when the rules button is clicked. 
+  - The rules page is inspired by an already existing wiki image that clearly and visually outlines the rules of the game. Explaining to the user how the different choices within the game affect the outcome; for example, choosing rock defeats scissors, choosing scissors defeats lizard etc. It displays as a modal over the landing page when the rules button is clicked. 
 
 ![Rules Pagel](/media/rules-image.png)
 
@@ -252,7 +252,7 @@ Mobile View
 
 1. As a **returning user** I can **see the site is regularly updated** so that **I can play the game differently**.
 
--  As a group we felt it would be important when creating this kind of game to have regular updates to enhance interactivity (such as adding more Sheldon quotes at the end of each round and images with the quotes), improve accessibility and add multiple levels of difficulty to the game. Another future update would be to implement the options to play a first three out of five rounds game between the user and Sheldon, or a first first to win ten rounds game.   
+-  As a group we felt it would be important when creating this kind of game to have regular updates to enhance interactivity (such as adding more Sheldon quotes at the end of each round and images with the quotes), improve accessibility and add multiple levels of difficulty to the game. Another future update would be to implement the options to play a first three out of five rounds game between the user and Sheldon, or a first to win ten rounds game.   
 
 2. As a **site owner** I can **see a game that has increasing levels of difficulty** so that **I can entertain online users**.
 
@@ -286,7 +286,7 @@ The live link can be found here:
 
 ### Content
 
-Bootstrap 4 was used to assist in the structure and layout of the destinations page and the home page.
+Bootstrap 5 was used to assist in the structure and layout of the destinations page and the home page.
 
 Fonts are from [Google Fonts](https://fonts.google.com/)
 
@@ -303,6 +303,9 @@ Images were altered on [PineTools](https://pinetools.com/pixelate-effect-image) 
 
 Responsiveness tested on:
 [Am I Responsive?](https://ui.dev/amiresponsive)
+
+Logo was created with: 
+[Canva](https://www.canva.com/)
 
 ### README Content
 
