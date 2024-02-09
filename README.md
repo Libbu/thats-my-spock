@@ -116,29 +116,17 @@ Our logo was lovingly crafted by the DEV team to appeal to our site’s target a
 
 ### Site Wireframes
 
-- __Homepage before interaction Desktop__
+- __Landing Page Desktop__
 
-![Desktop home page](https://github.com/ADD HOMEPAGE B4 DSK WIREFRAME IMAGE LINK HERE.jpg)
+![Desktop home page](/media/final-wireframe.png)
 
-- __Homepage after interaction Desktop__
+- __Game Zone Desktop__
 
-![Desktop home page](https://github.com/ADD HOMEPAGE AFT DSK WIREFRAME IMAGE LINK HERE.jpg)
+![Game Zone](/media/wireframe-gamezone.png)
 
-- __Homepage before interaction Tablet__
+- __Landing Page on Tablet & Mobile__
 
-![Desktop home page](https://github.com/ADD HOMEPAGE B4 TB WIREFRAME IMAGE LINK HERE.jpg)
-
-- __Homepage after interaction Tablet__
-
-![Desktop home page](https://github.com/ADD HOMEPAGE AFT TB WIREFRAME IMAGE LINK HERE.jpg)
-
-- __Homepage before interaction Mobile__
-
-![Desktop home page](https://github.com/ADD HOMEPAGE WIREFRAME B4 MOB IMAGE LINK HERE.jpg)
-
-- __Homepage after interaction Mobile__
-
-![Desktop home page](https://github.com/ADD HOMEPAGE WIREFRAME AFT MOB IMAGE LINK HERE.jpg)
+![Tablet & Mobile Landing](/media/mobile-tablet-landing.png)
 
 ## Surface
 
@@ -150,7 +138,7 @@ A Site palette was chosen that attempts to match a favoured shirt choice of Shel
 
 The Palette was created using https://htmlcolorcodes.com
 
-![Colour Palette](https://)
+![Colour Picker](/media/colour-palette.png)
 
 The colours are:
 
@@ -256,11 +244,7 @@ Mobile View
 
 -  After each round, in the game zone, the user is presented with the option to either ‘play again’ - keeping their current score and try tally, or ‘reset’ the game and start from scratch. 
 
-
-
-
-
-12. As a **site-owner** I want **users to be able to navigate my site** so that **they can find information**
+9. As a **site-owner** I want **users to be able to navigate my site** so that **they can find information**
 
 - All relevant information (including rules) are easily accessible or clearly displayed on the landing page and in the game zone. 
 
@@ -278,7 +262,6 @@ Mobile View
 
 - This might include the option to just play rock paper scissors; or have a default play rock, paper, scissors game, which the user must win a set number of points playing in order to unlock the spock and lizard features. 
 
-
 ## Known Issues and Bugs
 
 ACCOUNT OF ANY BUGS FOUND FOLLOWING DEVELOPMENT, TESTING AND DEPLOYMENT IF ANY.
@@ -289,17 +272,13 @@ The site was deployed to GitHub pages.
 
 The live link can be found here:
 
-[Rock, Paper, Sheldon](https://jsith90.github.io/thats-my-spock/)
+[Rock Paper Sheldon](https://jsith90.github.io/thats-my-spock/)
 
 ## Credits 
 
 ### Content
 
-[THIS](https://github.com/STOLEN STUFF) WAS STOLEN FROM WHERE AND THIS IS HOW IT WAS USED. SEE GOOGLE FONTS BELOW AS AN EXAMPLE AND REPEAT THIS FORMULA AS NEEDED.
-
 Bootstrap 4 was used to assist in the structure and layout of the destinations page and the home page.
-
-The layout and contents of this README.md file are in large part influenced by the [CyberPixels](https://github.com/Libbu/CyberPixels/blob/main/README.md) README.md file from 1st Gwent group Hackathon project. 
 
 Fonts are from [Google Fonts](https://fonts.google.com/)
 
@@ -316,6 +295,10 @@ Images were altered on [PineTools](https://pinetools.com/pixelate-effect-image) 
 
 Responsiveness tested on:
 [Am I Responsive?](https://ui.dev/amiresponsive)
+
+## README Content
+
+The layout and contents of this README.md file are in large part influenced by the [CyberPixels](https://github.com/Libbu/CyberPixels/blob/main/README.md) README.md file from 1st Gwent group Hackathon project.
 
 ### Acknowledgements
 
