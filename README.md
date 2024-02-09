@@ -320,10 +320,10 @@ Unless otherwise noted all code and content is the work of That’s my Spock as 
 
 ### That’s my Spock:
 
-Caelum Johnson
-Sharon Simpson
-Elizabeth Spivey
-Josh Sinclair-Thomson
+- Sharon Simpson, DEV (HTLM & CSS) Lead
+- Elizabeth Spivey, DEV (JavaScript) Lead
+- Caelum Johnson, UX Lead
+- Josh Sinclair-Thomson, AGILE Lead
 
 
 
