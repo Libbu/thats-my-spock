@@ -204,11 +204,11 @@ Rock, Paper Sheldon has been thoroughly tested throughout the development proces
 
 Desktop:
 
-![desktop](https://github.com/LIGHTHOUSE DSK TEST IMAGE.jpg)
+![desktop](/media/lighthousePC.JPG)
 
 Mobile View
 
-![mobile](https://github.com/LIGHTHOUSE MOB TEST IMAGE.jpg)
+![mobile](/media/lighthousemobile.JPG)
 
 ## User Story Testing
 
@@ -264,7 +264,9 @@ Mobile View
 
 ## Known Issues and Bugs
 
-ACCOUNT OF ANY BUGS FOUND FOLLOWING DEVELOPMENT, TESTING AND DEPLOYMENT IF ANY.
+Display of option buttons currently distorts to an oval on Safari mobile browser.
+
+In the results section the white background of the container for the option images spills slightly beyond the thick blue border.
 
 ## Deployment
 
